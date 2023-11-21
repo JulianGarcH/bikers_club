@@ -78,9 +78,9 @@ body{
 	text-align:justify;
 }
 #body a{
-	color:#ffffff;
+	color:#f3eb82;
 	font-weight:bold;
-	text-decoration:none;
+	text-decoration:underline;
 	outline:medium none;
 }
 #main{
@@ -380,7 +380,7 @@ body{
 }
 /*------------------------- Footer -------------------------*/
 #footer{
-	background-color:#209201;
+	background-color:#ff77006c;
 	height:60px;
 	width:100%;
 	line-height:60px;
@@ -457,4 +457,10 @@ img{
 }
 #body .contents{
 	_height:870px;
+}
+
+#Eventos ul li {
+    margin-bottom: 25px;
+    color: rgb(118, 185, 91); /* Cambia "red" al color que prefieras */
+    font-weight:bold; /* Agrega negrita al texto */
 }
